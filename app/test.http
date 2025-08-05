@@ -1,0 +1,19 @@
+# POST http://127.0.0.1:8000/url/shorten
+# Content-Type: application/json
+
+# {
+#     "original_url": "https://www.google.com"
+# }
+
+# POST http://127.0.0.1:8000/users/register
+# Content-Type: application/json
+
+# {
+#     "username": "amritminocha1",
+#     "email": "amritminocha1@gmail.com",
+#     "password": "123456"
+# }
+
+
+GET http://127.0.0.1:8000/users/amritminocha1@gmail.com
+Content-Type: application/json
