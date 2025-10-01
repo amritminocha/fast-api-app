@@ -22,3 +22,6 @@ tests/.env
 .vscode
 
 tests
+
+.DS_Store
+
